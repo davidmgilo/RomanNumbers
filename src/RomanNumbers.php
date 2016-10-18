@@ -9,12 +9,8 @@ class RomanNumbers
         if($number == 5){
             return 'V';
         }
-        if($number == 3){
-            return 'III';
-        }
-        if($number == 2){
-            return 'II';
-        }
-        return 'I';
+
+        return str_repeat('I',$number);
+
     }
 }
