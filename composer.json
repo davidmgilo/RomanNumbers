@@ -8,5 +8,10 @@
             "name": "David Martinez",
             "email": "davidmgilo@gmail.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-0": {
+            "":"src"
+        }
+    }
 }
