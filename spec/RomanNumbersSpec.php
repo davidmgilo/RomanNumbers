@@ -28,4 +28,14 @@ class RomanNumbersSpec extends ObjectBehavior
     {
         $this->convert(3)->shouldReturn('III');
     }
+
+    function it_returns_V_if_5()
+    {
+        $this->convert(5)->shouldReturn('V');
+    }
+
+    function it_returns_X_if_10()
+    {
+        $this->convert(10)->shouldReturn('X');
+    }
 }
