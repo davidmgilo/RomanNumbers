@@ -15,6 +15,11 @@ class RomanNumbers
 
         $solution = "";
 
+        if($number == 10) {
+            $solution = $this->code[$number];
+            $number -= $number;
+        }
+        
         if($number == 4) {
             $solution = $this->code[$number];
             $number = 0;
