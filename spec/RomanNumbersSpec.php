@@ -38,5 +38,5 @@ class RomanNumbersSpec extends ObjectBehavior
     {
         $this->convert(10)->shouldReturn('X');
     }
-    
+
 }
